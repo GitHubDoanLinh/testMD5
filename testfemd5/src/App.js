@@ -23,10 +23,6 @@ function App() {
     }
   }
 
-  // const handledDetail=(id)=>{
-  //     navigate(`/detail/${id}`)
-  // }
-
   return (
       <>
         <div className="container">

@@ -16,7 +16,7 @@ export default function Create() {
             alert("Create Success!!!")
             navigate('/')
         }).catch(Error => console.log(Error))
-    }
+    };
 
     return (
         <>

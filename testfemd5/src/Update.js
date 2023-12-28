@@ -21,7 +21,7 @@ export  default function Update (){
             alert("Update Success!!!")
             navigate('/')
         }).catch(Error => console.log(Error))
-    }
+    };
 
 
     return(
