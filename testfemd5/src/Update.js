@@ -4,9 +4,9 @@ import axios from "axios";
 import {Field, Form, Formik} from "formik";
 
 export  default function Update (){
-    const navigate = useNavigate()
-    const [product, setProduct] = useState({})
-    const {id} =  useParams()
+    const navigate = useNavigate();
+    const [product, setProduct] = useState({});
+    const {id} =  useParams();
 
     useEffect(()=>{
         axios.get("http://localhost:3000/products/"+id).then(res => {

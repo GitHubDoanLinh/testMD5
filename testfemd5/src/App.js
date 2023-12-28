@@ -4,9 +4,9 @@ import axios from "axios";
 import {useEffect, useState} from "react";
 
 function App() {
-  const navigate = useNavigate()
-  const [products, setProducts] = useState([])
-  const [isCheck, setCheck] = useState(false)
+  const navigate = useNavigate();
+  const [products, setProducts] = useState([]);
+  const [isCheck, setCheck] = useState(false);
 
   useEffect(() => {
     axios.get("http://localhost:3000/products").then(res => {

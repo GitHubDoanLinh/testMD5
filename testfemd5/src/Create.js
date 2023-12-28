@@ -4,7 +4,7 @@ import {Link, useNavigate} from "react-router-dom";
 import axios from "axios";
 export default function Create() {
 
-    const navigate = useNavigate()
+    const navigate = useNavigate();
     const [product] = useState({
         title: '',
         price: 0.0,
